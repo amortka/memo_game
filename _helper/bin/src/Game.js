@@ -55,6 +55,9 @@ Concentration.Game.prototype = {
 	},
 
     onTileTap:function (tile) {
+		
+		console.log('this', this)
+		
         if(this.busy){
             return;
         }
