@@ -2,7 +2,7 @@
 
   var Memory = {};
 
-  Memory.Game = function(game) {
+  Memory.Game = function() {
 
 	this.busy = false;
 	this.counter = 0;
